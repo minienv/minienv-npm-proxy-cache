@@ -1,5 +1,7 @@
 FROM node:alpine
 
+MAINTAINER Mark Watson <markwatsonatx@gmail.com>
+
 RUN npm install -g npm-proxy-cache
 
 VOLUME /cache
